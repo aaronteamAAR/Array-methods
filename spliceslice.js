@@ -21,3 +21,4 @@ console.log(mon)
 console.log(mon.slice(1, 3))
 
 
+console.clear()
