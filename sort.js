@@ -10,5 +10,6 @@ console.log(num.sort())
 
 
 // For sorting interger element
-
 console.log(num.sort((a, b) => a - b))
+
+console.clear()
