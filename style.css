@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100;1,500&family=Sora:wght@100;200;300;400;500;600;700&display=swap");
 body {
   margin-top: 4em;
-  color: rgb(156, 156, 156);
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(60, 222, 130);
   font-family: "Sora", sans-serif;
 }
 
@@ -12,15 +12,25 @@ h1 {
   color: white;
   align-content: center;
 }
+.art{
+    border-radius: 4px;
+    position: absolute;
+    background-color: yellow;
+    box-shadow: 19px 10px 0px 7px rgba(0,0,0,1);
+-webkit-box-shadow: 19px 10px 0px 7px rgba(0,0,0,1);
+-moz-box-shadow: 19px 10px 0px 7px rgba(0,0,0,1);
+}
 a {
   text-decoration: none;
-  color: white;
+  color: blue;
   font-size: 13px;
 }
 .img {
   width: 500px;
   border-radius: 4px;
-  margin-left: 30em;
+  margin-left: 50em;
+  margin-top: 5em;
+
 }
 
 footer {
@@ -31,13 +41,21 @@ footer {
   text-align: center;
 }
 .links {
+    position: fixed;
   zoom: 0.5;
-  position: fixed;
   bottom: 100px;
   width: 100%;
   text-align: center;
 }
-
+.section{
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 80px, 100% 100%,0 100% );
+ 
+}
+.sec{
+    font-size: 13px;
+    margin: 12px;
+}
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   body {
     font-size: 14px;
@@ -49,12 +67,22 @@ footer {
     margin-left: -2em;
   }
   .img {
-    margin-left: 2em;
+    margin-left: 4em;
     width: 300px;
-    margin-top: 3em;
+    margin-top: 16em;
+  }
+  .links{
+      position: absolute;
+    bottom: 120px;
+    width: 100%;
+    text-align: center;
   }
   footer {
     position: fixed;
     bottom: 10px;
+  }
+  .art{ 
+      zoom: .7;
+      background-position;
   }
 }
