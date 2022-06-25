@@ -64,7 +64,7 @@ footer {
     font-size: 19px;
   }
   ol {
-    margin-left: -2em;
+    margin-left: 0em;
   }
   .img {
     margin-left: 4em;
@@ -72,7 +72,7 @@ footer {
     margin-top: 16em;
   }
   .links{
-    bottom: 120px;
+    bottom: 70px;
     width: 100%;
     text-align: center;
   }
@@ -82,6 +82,6 @@ footer {
   }
   .art{ 
       zoom: .7;
-      background-position;
+
   }
 }
