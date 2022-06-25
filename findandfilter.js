@@ -13,10 +13,12 @@
 
 
 
-const week = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri' ]
+const week = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Wed' ]
 
 
 console.log(week.indexOf('Mon')) 
 // Returns the index
 
-console.log()
+console.log(week.lastIndexOf('Wed'))
+
+console.log(week.includes('Wed'))
