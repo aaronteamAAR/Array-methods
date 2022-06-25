@@ -17,3 +17,5 @@ console.log(nums)
 
 
 console.log(nums.shift()) // removes the first element in the array
+
+console.clear()
