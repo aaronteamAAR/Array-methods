@@ -23,6 +23,31 @@ a{
 }
 
 footer{
-    font-size: 12px;
-    
+  font-size: 12px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    body{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 19px;
+    }
+    ol{
+        margin-left: -2em;
+    }
+    .img{
+        margin-left: 2em;
+        width: 300px;
+        margin-top: 3em;
+    }
+    footer{
+        position: fixed;
+        bottom: 10px;
+      }
 }
